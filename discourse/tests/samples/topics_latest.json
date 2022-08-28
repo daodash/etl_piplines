@@ -1,0 +1,119 @@
+{
+    "users": [
+        {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/images/discourse-logo-sketch-small.png",
+            "flair_name": null,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+        },
+        {
+            "id": 1,
+            "username": "tomfutago",
+            "name": null,
+            "avatar_template": "/letter_avatar_proxy/v4/letter/t/bbce88/{size}.png",
+            "flair_name": null,
+            "admin": true,
+            "trust_level": 4
+        }
+    ],
+    "primary_groups": [],
+    "flair_groups": [],
+    "topic_list": {
+        "can_create_topic": false,
+        "per_page": 30,
+        "top_tags": [
+            "test_tag"
+        ],
+        "topics": [
+            {
+                "id": 7,
+                "title": "Welcome to Discourse",
+                "fancy_title": "Welcome to Discourse",
+                "slug": "welcome-to-discourse",
+                "posts_count": 1,
+                "reply_count": 0,
+                "highest_post_number": 1,
+                "image_url": null,
+                "created_at": "2022-08-22T01:00:07.697Z",
+                "last_posted_at": "2022-08-22T01:00:07.808Z",
+                "bumped": true,
+                "bumped_at": "2022-08-22T01:00:07.808Z",
+                "archetype": "regular",
+                "unseen": false,
+                "pinned": true,
+                "unpinned": null,
+                "excerpt": "The first paragraph of this pinned topic will be visible as a welcome message to all new visitors on your homepage. It\u2019s important! \nEdit this into a brief description of your community: \n\nWho is it for?\nWhat can they fi&hellip;",
+                "visible": true,
+                "closed": false,
+                "archived": false,
+                "bookmarked": null,
+                "liked": null,
+                "tags": [],
+                "tags_descriptions": {},
+                "views": 2,
+                "like_count": 0,
+                "has_summary": false,
+                "last_poster_username": "system",
+                "category_id": 1,
+                "pinned_globally": true,
+                "featured_link": null,
+                "posters": [
+                    {
+                        "extras": "latest single",
+                        "description": "Original Poster, Most Recent Poster",
+                        "user_id": -1,
+                        "primary_group_id": null,
+                        "flair_group_id": null
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "title": "Test topic and more so it's longer",
+                "fancy_title": "Test topic and more so it&rsquo;s longer",
+                "slug": "test-topic-and-more-so-its-longer",
+                "posts_count": 3,
+                "reply_count": 0,
+                "highest_post_number": 3,
+                "image_url": null,
+                "created_at": "2022-08-23T20:03:17.108Z",
+                "last_posted_at": "2022-08-26T09:34:32.073Z",
+                "bumped": true,
+                "bumped_at": "2022-08-26T09:34:32.073Z",
+                "archetype": "regular",
+                "unseen": false,
+                "pinned": false,
+                "unpinned": null,
+                "visible": true,
+                "closed": false,
+                "archived": false,
+                "bookmarked": null,
+                "liked": null,
+                "tags": [
+                    "test_tag"
+                ],
+                "tags_descriptions": {},
+                "views": 2,
+                "like_count": 0,
+                "has_summary": false,
+                "last_poster_username": "tomfutago",
+                "category_id": 1,
+                "pinned_globally": false,
+                "featured_link": null,
+                "posters": [
+                    {
+                        "extras": "latest single",
+                        "description": "Original Poster, Most Recent Poster",
+                        "user_id": 1,
+                        "primary_group_id": null,
+                        "flair_group_id": null
+                    }
+                ]
+            }
+        ]
+    }
+}
