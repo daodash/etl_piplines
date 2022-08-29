@@ -1,16 +1,6 @@
 {
-    "tags": [
-        {
-            "id": "test_tag",
-            "text": "test_tag",
-            "name": "test_tag",
-            "description": null,
-            "count": 1,
-            "pm_count": 0,
-            "target_tag": null
-        }
+    "errors": [
+        "The requested URL or resource could not be found."
     ],
-    "extras": {
-        "categories": []
-    }
+    "error_type": "not_found"
 }

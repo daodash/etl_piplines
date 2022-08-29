@@ -1,0 +1,198 @@
+{
+    "user_badges": [
+        {
+            "id": 2088,
+            "granted_at": "2021-10-14T19:13:06.686Z",
+            "created_at": "2021-10-14T19:13:06.686Z",
+            "count": 1,
+            "badge_id": 2,
+            "user_id": 823,
+            "granted_by_id": -1
+        },
+        {
+            "id": 4408,
+            "granted_at": "2022-08-10T09:25:40.568Z",
+            "created_at": "2022-08-10T09:25:40.637Z",
+            "count": 1,
+            "badge_id": 24,
+            "user_id": 823,
+            "granted_by_id": -1
+        },
+        {
+            "id": 2698,
+            "granted_at": "2021-12-14T02:40:56.249Z",
+            "created_at": "2021-12-14T02:40:56.249Z",
+            "count": 1,
+            "post_id": 8591,
+            "post_number": 20,
+            "badge_id": 6,
+            "user_id": 823,
+            "granted_by_id": -1,
+            "topic_id": 2374
+        }
+    ],
+    "badges": [
+        {
+            "id": 2,
+            "name": "Member",
+            "description": "<a href=\"https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/\">Granted</a> invitations, group messaging, more likes",
+            "grant_count": 188,
+            "allow_title": false,
+            "multiple_grant": false,
+            "icon": "fa-user",
+            "image_url": null,
+            "listable": true,
+            "enabled": true,
+            "badge_grouping_id": 4,
+            "system": true,
+            "slug": "member",
+            "manually_grantable": false,
+            "badge_type_id": 3
+        },
+        {
+            "id": 24,
+            "name": "Anniversary",
+            "description": "Active member for a year, posted at least once",
+            "grant_count": 271,
+            "allow_title": false,
+            "multiple_grant": true,
+            "icon": "far-clock",
+            "image_url": null,
+            "listable": true,
+            "enabled": true,
+            "badge_grouping_id": 2,
+            "system": true,
+            "slug": "anniversary",
+            "manually_grantable": false,
+            "badge_type_id": 2
+        },
+        {
+            "id": 6,
+            "name": "Nice Reply",
+            "description": "Received 10 likes on a reply",
+            "grant_count": 36,
+            "allow_title": false,
+            "multiple_grant": true,
+            "icon": "fa-certificate",
+            "image_url": null,
+            "listable": true,
+            "enabled": true,
+            "badge_grouping_id": 3,
+            "system": true,
+            "slug": "nice-reply",
+            "manually_grantable": false,
+            "badge_type_id": 3
+        }
+    ],
+    "badge_types": [
+        {
+            "id": 3,
+            "name": "Bronze",
+            "sort_order": 7
+        },
+        {
+            "id": 2,
+            "name": "Silver",
+            "sort_order": 8
+        }
+    ],
+    "users": [
+        {
+            "id": 823,
+            "username": "RunTheJewelz",
+            "name": "RTJ",
+            "avatar_template": "/user_avatar/forum.bankless.community/runthejewelz/{size}/1633_2.png",
+            "flair_name": null,
+            "trust_level": 2
+        },
+        {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "https://global.discourse-cdn.com/standard14/uploads/bankless/original/1X/30d87c86be49f208cf39328c02790fc6f393917c.png",
+            "flair_name": null,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+        }
+    ],
+    "topics": [
+        {
+            "id": 2374,
+            "title": "[Season 3] Reduce Membership Threshold",
+            "fancy_title": "[Season 3] Reduce Membership Threshold",
+            "slug": "season-3-reduce-membership-threshold",
+            "posts_count": 36
+        }
+    ],
+    "user": {
+        "id": 823,
+        "username": "RunTheJewelz",
+        "name": "RTJ",
+        "avatar_template": "/user_avatar/forum.bankless.community/runthejewelz/{size}/1633_2.png",
+        "last_posted_at": "2022-07-25T18:32:08.778Z",
+        "last_seen_at": "2022-08-26T13:19:59.542Z",
+        "created_at": "2021-08-10T03:00:14.230Z",
+        "ignored": false,
+        "muted": false,
+        "can_ignore_user": false,
+        "can_mute_user": false,
+        "can_send_private_messages": false,
+        "can_send_private_message_to_user": false,
+        "trust_level": 2,
+        "moderator": false,
+        "admin": false,
+        "title": "",
+        "badge_count": 10,
+        "custom_fields": {},
+        "time_read": 44172,
+        "recent_time_read": 2680,
+        "primary_group_id": null,
+        "primary_group_name": null,
+        "flair_group_id": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "featured_topic": null,
+        "bio_excerpt": null,
+        "location": "Chicago",
+        "bio_cooked": null,
+        "can_edit": false,
+        "can_edit_username": false,
+        "can_edit_email": false,
+        "can_edit_name": false,
+        "uploaded_avatar_id": 1633,
+        "pending_count": 0,
+        "profile_view_count": 116,
+        "can_upload_profile_header": false,
+        "can_upload_user_card_background": false,
+        "custom_avatar_upload_id": 1633,
+        "custom_avatar_template": "/user_avatar/forum.bankless.community/runthejewelz/{size}/1633_2.png",
+        "user_notification_schedule": {
+            "enabled": false,
+            "day_0_start_time": 480,
+            "day_0_end_time": 1020,
+            "day_1_start_time": 480,
+            "day_1_end_time": 1020,
+            "day_2_start_time": 480,
+            "day_2_end_time": 1020,
+            "day_3_start_time": 480,
+            "day_3_end_time": 1020,
+            "day_4_start_time": 480,
+            "day_4_end_time": 1020,
+            "day_5_start_time": 480,
+            "day_5_end_time": 1020,
+            "day_6_start_time": 480,
+            "day_6_end_time": 1020
+        },
+        "accepted_answers": 0,
+        "featured_user_badge_ids": [
+            2088,
+            4408,
+            2698
+        ],
+        "invited_by": null,
+        "groups": []
+    }
+}

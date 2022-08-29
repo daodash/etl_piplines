@@ -8,6 +8,9 @@ authors = ["tomfutago <tomfutago@gmail.com>"]
 python = "^3.10"
 requests = "^2.28.1"
 python-dotenv = "^0.20.0"
+pandas = "^1.4.3"
+SQLAlchemy = "^1.4.40"
+psycopg2-binary = "^2.9.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
