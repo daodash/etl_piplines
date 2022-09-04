@@ -33,13 +33,13 @@ discourse_api_username = os.getenv("DISCOURSE_API_USERNAME") #'All Users'
 #api_query = '{}/admin/users/list/{}.json?{}&api_key={}&api_username={}'.format(discourse_url, 'active', params, discourse_api_key, discourse_api_username)
 
 # topics
-api_query = '{}/latest.json?order=created&ascending=true&api_key={}&api_username={}&page=18'.format(discourse_url, discourse_api_key, discourse_api_username)
+#api_query = '{}/latest.json?order=created&ascending=true&api_key={}&api_username={}&page=18'.format(discourse_url, discourse_api_key, discourse_api_username)
 #api_query = '{}/t/{}.json?api_key={}&api_username={}'.format(discourse_url, 3661, discourse_api_key, discourse_api_username)
 #https://{defaultHost}/t/{id}/posts.json + {"post_ids[]": 0}
 
 # posts
 #api_query = '{}/posts.json?api_key={}&api_username={}'.format(discourse_url, discourse_api_key, discourse_api_username)
-#api_query = '{}/posts/{}.json?api_key={}&api_username={}'.format(discourse_url, 14196, discourse_api_key, discourse_api_username)
+api_query = '{}/posts/{}.json?api_key={}&api_username={}'.format(discourse_url, 14065, discourse_api_key, discourse_api_username)
 #api_query = '{}/posts/{}/replies.json?api_key={}&api_username={}'.format(discourse_url, 4171, discourse_api_key, discourse_api_username)
 
 # search
@@ -50,6 +50,6 @@ api_query = '{}/latest.json?order=created&ascending=true&api_key={}&api_username
 #api_query = '{}/search/query.json?{}&page=2'.format(discourse_url, search) #doesn't require api key
 
 result = requests.get(api_query).json()
-with open('./tests/samples/topics_latest_p20.json', 'w') as f:
+with open('./tests/samples/posts_single.json', 'w') as f:
     json.dump(result, f, indent=4)
 #print(json.dumps(result, indent=4))

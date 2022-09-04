@@ -2,6 +2,9 @@
 DROP TABLE IF EXISTS daodash_ny.discourse_users;
 DROP TABLE IF EXISTS daodash_ny.discourse_categories;
 DROP TABLE IF EXISTS daodash_ny.discourse_topics;
+DROP TABLE IF EXISTS daodash_ny.discourse_posts;
+DROP TABLE IF EXISTS daodash_ny.discourse_polls;
+DROP TABLE IF EXISTS daodash_ny.discourse_poll_votes;
 */
 
 CREATE TABLE IF NOT EXISTS daodash_ny.discourse_users (
@@ -30,15 +33,10 @@ CREATE TABLE IF NOT EXISTS daodash_ny.discourse_categories (
 
 CREATE TABLE IF NOT EXISTS daodash_ny.discourse_topics (
     id integer NOT NULL CONSTRAINT pk_discourse_topics PRIMARY KEY,
+    category_id integer NOT NULL,
     title varchar(200) NOT NULL,
     slug varchar(200) NULL,
-    user_id integer NOT NULL,
-    category_id integer NOT NULL,
-    description text NULL,
-    created_at timestamp NOT NULL DEFAULT current_timestamp,
-    updated_at timestamp NULL,
-    last_post_user_id integer NULL,
-    last_posted_at timestamp NULL,
+    excerpt text NULL,
     views_count integer DEFAULT 0 NOT NULL,
     posts_count integer DEFAULT 0 NOT NULL,
     reply_count integer DEFAULT 0 NOT NULL,
@@ -47,6 +45,45 @@ CREATE TABLE IF NOT EXISTS daodash_ny.discourse_topics (
     is_visible boolean DEFAULT true NOT NULL,
     is_closed boolean DEFAULT false NOT NULL,
     is_archived boolean DEFAULT false NOT NULL,
+    user_id integer NOT NULL,
+    created_at timestamp NOT NULL DEFAULT current_timestamp,
+    updated_at timestamp NULL,
+    last_post_user_id integer NULL,
+    last_posted_at timestamp NULL,
     deleted_by_user_id integer NULL,
     deleted_at timestamp NULL
+);
+
+CREATE TABLE IF NOT EXISTS daodash_ny.discourse_posts (
+    id integer NOT NULL CONSTRAINT pk_discourse_posts PRIMARY KEY,
+    topic_id integer NOT NULL, 
+    cooked text NOT NULL,
+    raw text NULL,
+    reply_count integer DEFAULT 0 NOT NULL,
+    reads_count integer DEFAULT 0 NOT NULL,
+    readers_count integer DEFAULT 0 NOT NULL,
+    user_id integer NOT NULL,
+    created_at timestamp NOT NULL DEFAULT current_timestamp,
+    updated_at timestamp NULL,
+    deleted_by_user_id integer NULL,
+    deleted_at timestamp NULL
+);
+
+CREATE TABLE IF NOT EXISTS daodash_ny.discourse_polls (
+    id integer NOT NULL CONSTRAINT pk_discourse_polls PRIMARY KEY,
+    post_id integer NOT NULL,
+    title varchar(100) NULL,
+    status varchar(20) NOT NULL,
+    voters_count integer DEFAULT 0 NOT NULL,
+    created_at timestamp NOT NULL DEFAULT current_timestamp,
+    updated_at timestamp NULL
+);
+
+CREATE TABLE IF NOT EXISTS daodash_ny.discourse_poll_votes (
+    id integer NOT NULL CONSTRAINT pk_discourse_poll_votes PRIMARY KEY,
+    poll_id integer NOT NULL,
+    option varchar(100) NULL,
+    votes_count integer DEFAULT 0 NOT NULL,
+    created_at timestamp NOT NULL DEFAULT current_timestamp,
+    updated_at timestamp NULL
 );

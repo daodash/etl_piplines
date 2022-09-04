@@ -188,7 +188,7 @@ for page_n in range(50): # check for more_topics_url instead?
 
     # include only necessary columns
     list_of_col_names = [
-        'id', 'title', 'slug', 'user_id', 'category_id', 'created_at', 'last_post_user_id', 'last_posted_at', 
+        'id', 'title', 'slug', 'user_id', 'category_id', 'excerpt', 'created_at', 'last_post_user_id', 'last_posted_at', 
         'views_count', 'posts_count', 'reply_count', 'like_count', 'is_pinned', 'is_visible', 'is_closed', 'is_archived'
     ]
     df = df.filter(list_of_col_names)
@@ -202,6 +202,29 @@ for page_n in range(50): # check for more_topics_url instead?
 
     # insert into records to db_engine table
     df_filtered.to_sql(name=table_name, schema=db_schema, con=db_engine, if_exists='append', index=False)
+
+
+########################################################
+# Posts & Polls
+sql = 'SELECT id AS topic_id FROM {}.{} ORDER BY 1;'.format(db_schema, 'discourse_topics')
+with db_engine.connect() as conn:
+    result = conn.execute(statement=sql)
+    for row in result:
+        topic_id = row.topic_id
+
+        api_query = '{}/t/{}.json?api_key={}&api_username={}'.format(
+            discourse_url, topic_id, discourse_api_key, discourse_api_username
+        )
+        table_name = 'discourse_posts'
+
+        # retrieve json results for posts
+        result = requests.get(api_query).json()
+        print(topic_id, result['posts_count'])
+        #df = pd.json_normalize(result['post_stream']['posts'])
+
+        # check if current topic contains any data, if it doesn't - skip and continue
+        if df.empty is True:
+            continue
 
 
 ########################################################
