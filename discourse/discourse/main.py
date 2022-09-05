@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import sqlalchemy as db
 from dotenv import load_dotenv
-from typing import Optional, Dict
+from typing import Optional, Dict, List
 
 # load env variables
 load_dotenv()
@@ -61,6 +61,53 @@ def create_upsert_method(meta: db.MetaData, extra_update_fields: Optional[Dict[s
 
     return method
 
+def data_transform_and_load(
+    data_iter, 
+    is_data_iter_df: bool,
+    list_of_col_names: List, 
+    table_name: str,
+    rename_mapper: Optional[Dict[str, str]] = None, 
+    extra_update_fields: Optional[Dict[str, str]] = None
+):
+    """
+    Prep given data_iter (json) and load it to table_name
+    """
+    if is_data_iter_df:
+        df = data_iter
+    else:
+        df = pd.json_normalize(data_iter)
+
+    # check if DataFrame contains any data, if it doesn't - skip the rest
+    if df.empty:
+        return False
+
+    # change json column names to match table column names
+    if rename_mapper:
+        df = df.rename(columns=rename_mapper, inplace=False)
+
+    # include only necessary columns
+    df = df.filter(list_of_col_names)
+
+    # create DB metadata object that can access table names, primary keys, etc.
+    meta = db.MetaData(db_engine, schema=db_schema)
+
+    # create upsert method that is accepted by pandas API
+    upsert_method = create_upsert_method(meta, extra_update_fields)
+
+    # perform upsert of DataFrame values to the given table
+    df.to_sql(
+        name=table_name,
+        con=db_engine,
+        schema=db_schema,
+        index=False,
+        if_exists='append',
+        chunksize=200, # it's recommended to insert data in chunks
+        method=upsert_method
+    )
+
+    # if it got that far without any errors - notify a successful completion
+    return True
+
 
 ########################################################
 # Categories
@@ -69,33 +116,17 @@ table_name = 'discourse_categories'
 
 # retrieve json results and convert to dataframe
 result = requests.get(api_query).json()
-df = pd.json_normalize(result['category_list']['categories'])
 
-# include only necessary columns
-list_of_col_names = ['id', 'name', 'slug']
-df = df.filter(list_of_col_names)
-
-# create DB metadata object that can access table names, primary keys, etc.
-meta = db.MetaData(db_engine, schema=db_schema)
-
-# dictionary which will add additional changes on update statement
-# i.e. all the columns which are not present in DataFrame, but needed to be updated regardless
-extra_update_fields = {"updated_at": "NOW()"}
-
-# create upsert method that is accepted by pandas API
-upsert_method = create_upsert_method(meta, extra_update_fields)
-
-# perform upsert of df DataFrame values to a table `table_name` and Postgres connection defined at `db_engine`
-df.to_sql(
-    name=table_name,
-    con=db_engine,
-    schema=db_schema,
-    index=False,
-    if_exists='append',
-    method=upsert_method
+# prep and upsert data
+data_transform_and_load(
+    data_iter=result['category_list']['categories'],
+    is_data_iter_df=False,
+    list_of_col_names=['id', 'name', 'slug'],
+    table_name=table_name,
+    extra_update_fields={"updated_at": "NOW()"}
 )
 
-
+"""
 ########################################################
 # Users
 for page_n in range(100):
@@ -133,7 +164,7 @@ for page_n in range(100):
     # create upsert method that is accepted by pandas API
     upsert_method = create_upsert_method(meta, extra_update_fields)
 
-    # perform upsert of df DataFrame values to a table `table_name` and Postgres connection defined at `db_engine`
+    # perform upsert of DataFrame values to the given table
     df.to_sql(
         name=table_name,
         con=db_engine,
@@ -202,11 +233,14 @@ for page_n in range(50): # check for more_topics_url instead?
 
     # insert into records to db_engine table
     df_filtered.to_sql(name=table_name, schema=db_schema, con=db_engine, if_exists='append', index=False)
-
+"""
 
 ########################################################
 # Posts & Polls
-sql = 'SELECT id AS topic_id FROM {}.{} ORDER BY 1;'.format(db_schema, 'discourse_topics')
+polls = []
+votes = []
+
+sql = 'SELECT id AS topic_id FROM {}.{} where id in (4171,4214) ORDER BY 1 limit 3;'.format(db_schema, 'discourse_topics') # where & limit 3 just TESTS!
 with db_engine.connect() as conn:
     result = conn.execute(statement=sql)
     for row in result:
@@ -219,12 +253,60 @@ with db_engine.connect() as conn:
 
         # retrieve json results for posts
         result = requests.get(api_query).json()
-        print(topic_id, result['posts_count'])
-        #df = pd.json_normalize(result['post_stream']['posts'])
+        posts = result['post_stream']['posts']
+
+        # prep and upsert data
+        isLoaded = data_transform_and_load(
+            data_iter=posts,
+            is_data_iter_df=False,
+            list_of_col_names=[
+                'id', 'topic_id', 'cooked', 'raw', 'reply_count', 'reads_count', 'readers_count', 
+                'user_id', 'created_at', 'updated_at', 'deleted_at'
+            ],
+            table_name=table_name,
+            rename_mapper={
+                'reads': 'reads_count'
+            },
+            extra_update_fields=None
+        )
 
         # check if current topic contains any data, if it doesn't - skip and continue
-        if df.empty is True:
+        if not isLoaded:
             continue
+
+        # check if there are polls attached to the posts and pull them into saparate DataFrame
+        for p in posts:
+            if 'polls' in p:
+                dfp = pd.json_normalize(p['polls'])
+                #dfp['post_id']
+                polls.append(dfp)
+                dfv = pd.json_normalize(p['polls'][0]['options'])
+                votes.append(dfv)
+
+# Polls
+table_name = 'discourse_polls'
+df_polls = pd.concat(polls)
+print(df_polls)
+
+# post_id needs adding above
+
+"""
+data_transform_and_load(
+    data_iter=df_polls,
+    is_data_iter_df=True,
+    list_of_col_names=[
+        'id', 'post_id', 'title', 'status', 'voters_count'
+    ],
+    table_name=table_name,
+    rename_mapper={
+        'voters': 'voters_count'
+    },
+    extra_update_fields=None
+)
+#"""
+
+df_votes = pd.concat(votes)
+print(df_votes)
 
 
 ########################################################
