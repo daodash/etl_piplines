@@ -1,0 +1,8 @@
+# ignore system/env files
+.DS_store
+.env
+.venv/
+
+# ignore compiled bytecode python files
+*.pyc
+__pycache__
