@@ -69,7 +69,7 @@ def data_transform_and_load(
     extra_update_fields: Optional[Dict[str, str]] = None
 ):
     """
-    Prep given data_iter (json/DataFrame) and load it to table_name
+    Prep given df_to_load and load it to table_name
     """
     # check if DataFrame contains any data, if it doesn't - skip the rest
     if df_to_load.empty:
