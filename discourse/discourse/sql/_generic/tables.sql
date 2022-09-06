@@ -57,8 +57,7 @@ CREATE TABLE IF NOT EXISTS daodash_ny.discourse_topics (
 CREATE TABLE IF NOT EXISTS daodash_ny.discourse_posts (
     id integer NOT NULL CONSTRAINT pk_discourse_posts PRIMARY KEY,
     topic_id integer NOT NULL, 
-    cooked text NOT NULL,
-    raw text NULL,
+    content text NOT NULL,
     reply_count integer DEFAULT 0 NOT NULL,
     reads_count integer DEFAULT 0 NOT NULL,
     readers_count integer DEFAULT 0 NOT NULL,
@@ -70,20 +69,49 @@ CREATE TABLE IF NOT EXISTS daodash_ny.discourse_posts (
 );
 
 CREATE TABLE IF NOT EXISTS daodash_ny.discourse_polls (
-    id integer NOT NULL CONSTRAINT pk_discourse_polls PRIMARY KEY,
+    id bigint NOT NULL CONSTRAINT pk_discourse_polls PRIMARY KEY,
     post_id integer NOT NULL,
-    title varchar(100) NULL,
-    status varchar(20) NOT NULL,
+    title varchar(200) NULL,
+    status varchar(30) NOT NULL,
     voters_count integer DEFAULT 0 NOT NULL,
     created_at timestamp NOT NULL DEFAULT current_timestamp,
     updated_at timestamp NULL
 );
 
 CREATE TABLE IF NOT EXISTS daodash_ny.discourse_poll_votes (
-    id integer NOT NULL CONSTRAINT pk_discourse_poll_votes PRIMARY KEY,
+    id bigint NOT NULL CONSTRAINT pk_discourse_poll_votes PRIMARY KEY,
     poll_id integer NOT NULL,
-    option varchar(100) NULL,
-    votes_count integer DEFAULT 0 NOT NULL,
+    vote_option varchar(500) NULL,
+    votes_count integer DEFAULT 0 NULL,
     created_at timestamp NOT NULL DEFAULT current_timestamp,
     updated_at timestamp NULL
 );
+
+/*
+CREATE SEQUENCE daodash_ny.discourse_polls_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+ALTER SEQUENCE daodash_ny.discourse_polls_id_seq OWNED BY daodash_ny.discourse_polls.id;
+
+CREATE SEQUENCE daodash_ny.discourse_poll_votes_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+ALTER SEQUENCE daodash_ny.discourse_poll_votes_id_seq OWNED BY daodash_ny.discourse_poll_votes.id;
+*/
+
+/*
+select * from daodash_ny.discourse_users;
+select * from daodash_ny.discourse_categories;
+select * from daodash_ny.discourse_topics;
+select * from daodash_ny.discourse_posts;
+select * from daodash_ny.discourse_polls;
+select * from daodash_ny.discourse_poll_votes;
+*/

@@ -62,31 +62,25 @@ def create_upsert_method(meta: db.MetaData, extra_update_fields: Optional[Dict[s
     return method
 
 def data_transform_and_load(
-    data_iter, 
-    is_data_iter_df: bool,
-    list_of_col_names: List, 
+    df_to_load: pd.DataFrame, 
     table_name: str,
+    list_of_col_names: List, 
     rename_mapper: Optional[Dict[str, str]] = None, 
     extra_update_fields: Optional[Dict[str, str]] = None
 ):
     """
-    Prep given data_iter (json) and load it to table_name
+    Prep given data_iter (json/DataFrame) and load it to table_name
     """
-    if is_data_iter_df:
-        df = data_iter
-    else:
-        df = pd.json_normalize(data_iter)
-
     # check if DataFrame contains any data, if it doesn't - skip the rest
-    if df.empty:
+    if df_to_load.empty:
         return False
 
     # change json column names to match table column names
     if rename_mapper:
-        df = df.rename(columns=rename_mapper, inplace=False)
+        df_to_load = df_to_load.rename(columns=rename_mapper, inplace=False)
 
     # include only necessary columns
-    df = df.filter(list_of_col_names)
+    df_to_load = df_to_load.filter(list_of_col_names)
 
     # create DB metadata object that can access table names, primary keys, etc.
     meta = db.MetaData(db_engine, schema=db_schema)
@@ -95,7 +89,7 @@ def data_transform_and_load(
     upsert_method = create_upsert_method(meta, extra_update_fields)
 
     # perform upsert of DataFrame values to the given table
-    df.to_sql(
+    df_to_load.to_sql(
         name=table_name,
         con=db_engine,
         schema=db_schema,
@@ -116,20 +110,19 @@ table_name = 'discourse_categories'
 
 # retrieve json results and convert to dataframe
 result = requests.get(api_query).json()
+df = pd.json_normalize(result['category_list']['categories'])
 
 # prep and upsert data
 data_transform_and_load(
-    data_iter=result['category_list']['categories'],
-    is_data_iter_df=False,
-    list_of_col_names=['id', 'name', 'slug'],
+    df_to_load=df,
     table_name=table_name,
+    list_of_col_names=['id', 'name', 'slug'],
     extra_update_fields={"updated_at": "NOW()"}
 )
 
-"""
 ########################################################
 # Users
-for page_n in range(100):
+for page_n in range(1000):
     api_query = '{}/directory_items.json?period=all&order=topic_count&page={}'.format(discourse_url, page_n)
     table_name = 'discourse_users'
 
@@ -137,48 +130,29 @@ for page_n in range(100):
     result = requests.get(api_query).json()
     df = pd.json_normalize(result['directory_items'])
 
-    # check if current page contains any users, exit loop if it doesn't
-    if df.empty is True:
-        break
-
-    # change json column names to match table column names
-    df = df.rename(columns={
-        'user.username': 'username',
-        'user.name': 'name'
-    }, inplace=False)
-
-    # include only necessary columns
-    list_of_col_names = [
-        'id', 'username', 'name', 'days_visited', 'time_read', 'topics_entered', 
-        'topic_count', 'posts_read', 'post_count', 'likes_received', 'likes_given'
-    ]
-    df = df.filter(list_of_col_names)
-
-    # create DB metadata object that can access table names, primary keys, etc.
-    meta = db.MetaData(db_engine, schema=db_schema)
-
-    # dictionary which will add additional changes on update statement
-    # i.e. all the columns which are not present in DataFrame, but needed to be updated regardless
-    extra_update_fields = {"updated_at": "NOW()"}
-
-    # create upsert method that is accepted by pandas API
-    upsert_method = create_upsert_method(meta, extra_update_fields)
-
-    # perform upsert of DataFrame values to the given table
-    df.to_sql(
-        name=table_name,
-        con=db_engine,
-        schema=db_schema,
-        index=False,
-        if_exists='append',
-        chunksize=200, # it's recommended to insert data in chunks
-        method=upsert_method
+    # prep and upsert data
+    isLoaded = data_transform_and_load(
+        df_to_load=df,
+        table_name=table_name,
+        list_of_col_names=[
+            'id', 'username', 'name', 'days_visited', 'time_read', 'topics_entered', 
+            'topic_count', 'posts_read', 'post_count', 'likes_received', 'likes_given'
+        ],
+        rename_mapper={
+            'user.username': 'username',
+            'user.name': 'name'
+        },
+        extra_update_fields={"updated_at": "NOW()"}
     )
+
+    # check if current page contains any users, exit loop if it doesn't
+    if not isLoaded:
+        break
 
 
 ########################################################
 # Topics
-for page_n in range(50): # check for more_topics_url instead?
+for page_n in range(1000): # check for more_topics_url instead?
     api_query = '{}/latest.json?order=created&ascending=true&api_key={}&api_username={}&page={}'.format(
         discourse_url, discourse_api_key, discourse_api_username, page_n
     )
@@ -186,21 +160,7 @@ for page_n in range(50): # check for more_topics_url instead?
 
     # retrieve json results
     result = requests.get(api_query).json()
-    #print(result['topic_list']['topics'])
     df = pd.json_normalize(result['topic_list']['topics'])
-
-    # check if current page contains any topics, exit loop if it doesn't
-    if df.empty is True:
-        break
-
-    # change json column names to match table column names
-    df = df.rename(columns={
-        'views': 'views_count',
-        'pinned_globally': 'is_pinned',
-        'visible': 'is_visible',
-        'closed': 'is_closed',
-        'archived': 'is_archived'
-    }, inplace=False)
 
     # extract original and most recent poster using list comprehansion
     #[print(n, x['description'], x['user_id']) for n in range(0, len(df)) for x in df['posters'][n] if 'Original Poster' in x['description']]
@@ -217,30 +177,36 @@ for page_n in range(50): # check for more_topics_url instead?
                     if 'Most Recent Poster' in x['description']
     ]
 
-    # include only necessary columns
-    list_of_col_names = [
-        'id', 'title', 'slug', 'user_id', 'category_id', 'excerpt', 'created_at', 'last_post_user_id', 'last_posted_at', 
-        'views_count', 'posts_count', 'reply_count', 'like_count', 'is_pinned', 'is_visible', 'is_closed', 'is_archived'
-    ]
-    df = df.filter(list_of_col_names)
-    #print(df)
+    # prep and upsert data
+    isLoaded = data_transform_and_load(
+        df_to_load=df,
+        table_name=table_name,
+        list_of_col_names=[
+            'id', 'title', 'slug', 'user_id', 'category_id', 'excerpt', 'created_at', 
+            'last_post_user_id', 'last_posted_at', 'views_count', 'posts_count', 'reply_count', 
+            'like_count', 'is_pinned', 'is_visible', 'is_closed', 'is_archived'
+        ],
+        rename_mapper={
+            'views': 'views_count',
+            'pinned_globally': 'is_pinned',
+            'visible': 'is_visible',
+            'closed': 'is_closed',
+            'archived': 'is_archived'
+        },
+        extra_update_fields={"updated_at": "NOW()"}
+    )
 
-    # check existing records for MAX(id)
-    max_id = get_table_max_id(table_name)
+    # check if current page contains any users, exit loop if it doesn't
+    if not isLoaded:
+        break
 
-    # include only new records (id > max_id)
-    df_filtered = df[df['id'].gt(max_id)]
-
-    # insert into records to db_engine table
-    df_filtered.to_sql(name=table_name, schema=db_schema, con=db_engine, if_exists='append', index=False)
-"""
 
 ########################################################
 # Posts & Polls
 polls = []
 votes = []
 
-sql = 'SELECT id AS topic_id FROM {}.{} where id in (4171,4214) ORDER BY 1 limit 3;'.format(db_schema, 'discourse_topics') # where & limit 3 just TESTS!
+sql = 'SELECT id AS topic_id FROM {}.{} ORDER BY 1;'.format(db_schema, 'discourse_topics')
 with db_engine.connect() as conn:
     result = conn.execute(statement=sql)
     for row in result:
@@ -254,17 +220,18 @@ with db_engine.connect() as conn:
         # retrieve json results for posts
         result = requests.get(api_query).json()
         posts = result['post_stream']['posts']
+        df = pd.json_normalize(posts)
 
         # prep and upsert data
         isLoaded = data_transform_and_load(
-            data_iter=posts,
-            is_data_iter_df=False,
+            df_to_load=df,
+            table_name=table_name,
             list_of_col_names=[
-                'id', 'topic_id', 'cooked', 'raw', 'reply_count', 'reads_count', 'readers_count', 
+                'id', 'topic_id', 'content', 'reply_count', 'reads_count', 'readers_count', 
                 'user_id', 'created_at', 'updated_at', 'deleted_at'
             ],
-            table_name=table_name,
             rename_mapper={
+                'cooked': 'content',
                 'reads': 'reads_count'
             },
             extra_update_fields=None
@@ -277,36 +244,55 @@ with db_engine.connect() as conn:
         # check if there are polls attached to the posts and pull them into saparate DataFrame
         for p in posts:
             if 'polls' in p:
+                # collect polls
                 dfp = pd.json_normalize(p['polls'])
-                #dfp['post_id']
+                dfp['id'] = int(p['id']) * 1000000000 + dfp.index + 1
+                dfp['post_id'] = p['id']
+                dfp['title'] = str(p['topic_slug']).replace('-', ' ')
                 polls.append(dfp)
+                
+                # collect poll votes
                 dfv = pd.json_normalize(p['polls'][0]['options'])
+                dfv['id'] = int(p['id']) * 1000000000 + dfv.index + 1
+                dfv['post_id'] = p['id']
+                dfv['vote_idx'] = dfv.index
                 votes.append(dfv)
 
 # Polls
 table_name = 'discourse_polls'
 df_polls = pd.concat(polls)
-print(df_polls)
 
-# post_id needs adding above
-
-"""
+# prep and upsert data
 data_transform_and_load(
-    data_iter=df_polls,
-    is_data_iter_df=True,
+    df_to_load=df_polls,
+    table_name=table_name,
     list_of_col_names=[
         'id', 'post_id', 'title', 'status', 'voters_count'
     ],
-    table_name=table_name,
     rename_mapper={
         'voters': 'voters_count'
     },
-    extra_update_fields=None
+    extra_update_fields={"updated_at": "NOW()"}
 )
-#"""
 
+# Poll votes
+table_name = 'discourse_poll_votes'
 df_votes = pd.concat(votes)
-print(df_votes)
+
+# prep and upsert data
+data_transform_and_load(
+    df_to_load=df_votes,
+    table_name=table_name,
+    list_of_col_names=[
+        'id', 'poll_id', 'vote_option', 'votes_count'
+    ],
+    rename_mapper={
+        'post_id': 'poll_id',
+        'html': 'vote_option',
+        'votes': 'votes_count'
+    },
+    extra_update_fields={"updated_at": "NOW()"}
+)
 
 
 ########################################################
