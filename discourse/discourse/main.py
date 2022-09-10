@@ -248,15 +248,17 @@ with db_engine.connect() as conn:
                 dfp = pd.json_normalize(p['polls'])
                 dfp['id'] = int(p['id']) * 1000000000 + dfp.index + 1
                 dfp['post_id'] = p['id']
-                dfp['title'] = str(p['topic_slug']).replace('-', ' ')
+                dfp['title'] = str(p['topic_slug']).replace('-', ' ') + ' - ' + dfp['name']
                 polls.append(dfp)
-                
+
                 # collect poll votes
-                dfv = pd.json_normalize(p['polls'][0]['options'])
-                dfv['id'] = int(p['id']) * 1000000000 + dfv.index + 1
-                dfv['post_id'] = p['id']
-                dfv['vote_idx'] = dfv.index
-                votes.append(dfv)
+                for poll_n in range(0, len(p['polls'])):
+                    dfv = pd.json_normalize(p['polls'][poll_n]['options'])
+                    dfv['post_idx'] = p['id']
+                    dfv['poll_idx'] = poll_n + 1
+                    dfv['vote_idx'] = dfv.index + 1
+                    votes.append(dfv)
+
 
 # Polls
 table_name = 'discourse_polls'
@@ -278,6 +280,8 @@ data_transform_and_load(
 # Poll votes
 table_name = 'discourse_poll_votes'
 df_votes = pd.concat(votes)
+df_votes['poll_id'] = df_votes['post_idx'] * 1000000000 + df_votes['poll_idx']
+df_votes['id'] = df_votes['poll_id'] * 100 + df_votes['vote_idx']
 
 # prep and upsert data
 data_transform_and_load(
@@ -287,7 +291,6 @@ data_transform_and_load(
         'id', 'poll_id', 'vote_option', 'votes_count'
     ],
     rename_mapper={
-        'post_id': 'poll_id',
         'html': 'vote_option',
         'votes': 'votes_count'
     },
