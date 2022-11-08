@@ -1,0 +1,522 @@
+{
+    "id": 8672,
+    "name": "0xNSHuman",
+    "username": "0xNSHuman",
+    "avatar_template": "/user_avatar/forum.bankless.community/0xnshuman/{size}/1010_2.png",
+    "created_at": "2021-12-11T17:37:19.704Z",
+    "cooked": "<h1>\n<a name=\"update-1\" class=\"anchor\" href=\"#update-1\"></a>UPDATE</h1>\n<p>The polls are closed, thanks to everyone who participated! The results are going to be posted shortly.</p>\n<hr>\n<p><s>What\u2019s up everybody! (Damn, this is already taken by <strong>Icedcool</strong>)</s></p>\n<p>Alright everybody, time to write a letter to Santa.</p>\n<p>As promised, we are posting some feature candidates for the community to vote on. Since the list of ideas is longer than what we can possibly chew in one season, letting all of us govern the roadmap for the product we all own and are going to use every day in our lives is the right thing to do.</p>\n<p>These polls will help us gauge the interest in particular features and overall possible directions for the app, hopefully get some fresh ideas and polish the existing ones, and ultimately prioritize our Season 3 scope items, making sure our resources are invested wisely.</p>\n<p>I would also note that we should think about this not only as a tool we use ourselves, but as a potential revenue-generating asset and a market advantage that most other decentralized organizations (if any) don\u2019t have in their arsenal\u2026 and prioritize accordingly.</p>\n<p>Unlike the Season 2 scope features, most of these feature candidates exist as results of discussions we\u2019ve been having with different guilds and project teams. This is already much better than just having me coming up with stuff, now let\u2019s make it solid by voting and offering different perspectives.</p>\n<p>Please feel free to add more ideas in the comments if you feel inspired and/or see something obviously valuable missing. I\u2019ll add it to the post and we\u2019ll re-iterate. Now go and vote, DAOpunk, it is your app!</p>\n<p><img src=\"https://emoji.discourse-cdn.com/twitter/love_letter.png?v=10\" title=\":love_letter:\" class=\"emoji only-emoji\" alt=\":love_letter:\"></p>\n<h1>\n<a name=\"proposed-feature-candidates-2\" class=\"anchor\" href=\"#proposed-feature-candidates-2\"></a>Proposed Feature Candidates</h1>\n<h3>\n<a name=\"multi-language-ui-international-content-3\" class=\"anchor\" href=\"#multi-language-ui-international-content-3\"></a>Multi-language UI + International Content</h3>\n<p>One of the best value opportunities we\u2019ve identified is to make all the translated content organized in Content Gateway - each language under its own directory - and then have Mobile App switch between languages seamlessly based on the user\u2019s smartphone settings, thus giving mobile users around the planet first-class native language access to everything Bankless! International Media Nodes also fit into the picture perfectly. This is one of my personal favourites.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"localization\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"more-education-guild-content-4\" class=\"anchor\" href=\"#more-education-guild-content-4\"></a>More Education Guild Content</h3>\n<p>We started with Bankless Academy as a big splash to make on the education side of the mobile experience. Now we\u2019re in talks with contributors interested in expanding Education Guild\u2019s outreach by utilizing Content Gateway as delivery platform, and having Mobile App as user experience platform.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"eduguild\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"more-hq-content-5\" class=\"anchor\" href=\"#more-hq-content-5\"></a>More HQ Content</h3>\n<p>We made Bankless Podcast videos accessible in the app, and would love to add the HQ Newsletter too. With the current platform capabilities, we\u2019re able to make it an exclusive perk for L1 members, retaining its existing business model unaffected.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"hqcontent\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"ipad-application-6\" class=\"anchor\" href=\"#ipad-application-6\"></a>iPad Application</h3>\n<p>The mobile app architecture lets us branch off most of the code we\u2019ve written and create a completely different UI for all the features. For example, we can take advantage the real estate on iPad screen and create something completely different for Bankless Academy that couldn\u2019t go into the iPhone version. Same with every other feature. If you have ideas of what would absolutely look 420% better on a tablet than on a smartphone \u2014 tell us all in the comments!</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"ipad\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"apple-watch-companion-7\" class=\"anchor\" href=\"#apple-watch-companion-7\"></a>Apple Watch Companion</h3>\n<p>Apple Watch apps are hard to justify, because most of them aren\u2019t really all that useful. Maybe it\u2019s just me, but Twitter and Facebook, for example, pulled their Watch apps back from the store apparently because they didn\u2019t make sense. However, we\u2019re smarter than Twitter and Facebook, aren\u2019t we <img src=\"https://emoji.discourse-cdn.com/twitter/thinking.png?v=10\" title=\":thinking:\" class=\"emoji\" alt=\":thinking:\">. Anyway, it is an option on the table. Thoughts are appreciated.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"watch\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"ens-support-8\" class=\"anchor\" href=\"#ens-support-8\"></a>ENS Support</h3>\n<p>The mobile app relies on your public ETH address in order to display on-chain information such as your BANK tokens, POAP tokens, and a lot of other things in the future. In order to do this, you obviously need to provide your address to the app, and many of us would be happy to just enter an ENS address instead of the 42-symbol raw address string.</p>\n<p>This requires the app to know your ENS record information, and the current version doesn\u2019t have this supported. Definitely a must have! Smash the like like button if you want it ASAP.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"ens\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"bank-push-notifications-9\" class=\"anchor\" href=\"#bank-push-notifications-9\"></a>BANK Push Notifications</h3>\n<p>We are researching ways to create a notifications platform in Content Gateway, which would open possibilities for all sorts of events to be delivered to user devices. One obvious application of this idea is receiving push notifications for your BANK balance changes and/or new transactions.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"banknotifications\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"bank-transaction-history-10\" class=\"anchor\" href=\"#bank-transaction-history-10\"></a>BANK Transaction History</h3>\n<p>This is a fairly easy thing to add, we just made it a low-priority feature in Season 2 and it ended up staying in our To-Do\u2019s. Now its fighting for your love next to all the other ideas!</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"bankhistory\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"tipping-other-members-in-bank-11\" class=\"anchor\" href=\"#tipping-other-members-in-bank-11\"></a>Tipping Other Members in BANK</h3>\n<p>We don\u2019t have a clear ETA on when this one could be added. It depends on some factors, and one of them is that there is currently a solution for tipping being developed by DEGEN team that we\u2019d love to rely on, so we are willing to wait for that instead of duplicating the effort and creating our own API. But hey, we\u2019re gauging your interest, so let\u2019s see how much we want this one in the mobile app!</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"tipping\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"announcements-feed-12\" class=\"anchor\" href=\"#announcements-feed-12\"></a>Announcements Feed</h3>\n<p>Showing the announcements posted in our Discord\u2026 in the app! Sounds cool to me. Doesn\u2019t sound incredibly incredibly hard to approach. And opens the door into more Discord integration opportunities. By the way, if you have more ideas on what Discord things would look great and have higher level of member engagement in the app \u2014 let us know in the comments!</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"announcements\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"governance-dashboard-and-notifications-13\" class=\"anchor\" href=\"#governance-dashboard-and-notifications-13\"></a>Governance Dashboard and Notifications</h3>\n<p>To make the app a truly useful DAO member tool - in addition to its appeal to content consumer - it would be great to start introducing interface for governance. Being aware of the latest proposals and ongoing votings and governance decisions looks like a good thing to begin with.</p>\n<p>As a bonus, if we route this data through Content Gateway and its future notification delivery service, we can also enable notifications for major governance events.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"governance\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"sponsor-portals-program-14\" class=\"anchor\" href=\"#sponsor-portals-program-14\"></a>Sponsor Portals Program</h3>\n<p>As mentioned in the <a href=\"https://forum.bankless.community/t/proposal-bankless-mobile-app/2348\">Mobile App Proposal</a>, mobile platforms are great user attention grabbers. This can be one of our biggest offers for sponsors. With the software architecture flexibility and agile approach to priorities, we can create special features and content sections for our partners and sponsors, offering a much more unique and targeted user experience for each of them. This area is itself worth creating a brainstorm and workgroup around.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"sponsors\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b70330751355a2ff9a389af3d17c5c05\">We should have this ASAP</li>\n<li data-poll-option-id=\"4d6f66d7d96a515823b2f9142fba92f5\">I\u2019d like to see it at the end of Season 3</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h1>\n<a name=\"underdeveloped-ideas-15\" class=\"anchor\" href=\"#underdeveloped-ideas-15\"></a>Underdeveloped Ideas</h1>\n<h3>\n<a name=\"metaverse-portal-16\" class=\"anchor\" href=\"#metaverse-portal-16\"></a>Metaverse Portal</h3>\n<p>We are exploring the idea of using Content Gateway as a metaverse item aggregator, where the state of the world for different games would be stored, including player profiles, the items they own, any related and tokenized economy attributes, etc. Obviously, this is asking for a mobile companion app for the metaverse players. What do you think? Drop your ideas in the comments!</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"metaverse\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"918199c39a8a56202631a41b5afaf118\">This is dope, we should create something in Season 3</li>\n<li data-poll-option-id=\"0c04f5fcb5e24cd372d15903a17b200a\">Let\u2019s research this more in Season 3, but work on it later</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"first-quest-companion-17\" class=\"anchor\" href=\"#first-quest-companion-17\"></a>First Quest Companion</h3>\n<p>The First Quest was the very first thing that the whole mobile app design process started with back in September. Ironically, it\u2019s still one of the least developed feature concepts here \ud83e\udd37\ud83c\udffd . I\u2019m hoping we\u2019ll find time to coordinate with The First Quest team - and their Dev Guild First Quest sister team - to finally put a solid implementation plan together. In the meantime, your votes show us all how soon this should happen.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"firstquest\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"918199c39a8a56202631a41b5afaf118\">This is dope, we should create something in Season 3</li>\n<li data-poll-option-id=\"0c04f5fcb5e24cd372d15903a17b200a\">Let\u2019s research this more in Season 3, but work on it later</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"bed-gmi-retail-investor-interface-18\" class=\"anchor\" href=\"#bed-gmi-retail-investor-interface-18\"></a>$BED + $GMI Retail Investor Interface</h3>\n<p>I have a concept draft for an interactive user experience around our on-chain financial products. The proposed interactive user interface would feature something like a \u201cSet your level of degen-ness\u201d slider that user can play with and see the different suggested mixes of the two index tokens to potentially invest in. This would create a better awareness for retail investors, educate them, and help them make informed decisions. NOT A FINANCIAL ADVICE <img src=\"https://emoji.discourse-cdn.com/twitter/orangutan.png?v=10\" title=\":orangutan:\" class=\"emoji\" alt=\":orangutan:\">.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"bedgmi\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"918199c39a8a56202631a41b5afaf118\">This is dope, we should create something in Season 3</li>\n<li data-poll-option-id=\"0c04f5fcb5e24cd372d15903a17b200a\">Let\u2019s research this more in Season 3, but work on it later</li>\n<li data-poll-option-id=\"abb0e10c133fa6c01ccd67a91ddc4615\">Maybe in 2022; Not a high priority</li>\n<li data-poll-option-id=\"04696936b1955aa6b7c37fcc0ddecb82\">I don\u2019t see value in this</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>",
+    "post_number": 1,
+    "post_type": 1,
+    "updated_at": "2022-01-06T22:01:08.622Z",
+    "reply_count": 1,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 25,
+    "reads": 78,
+    "readers_count": 77,
+    "score": 220.4,
+    "yours": false,
+    "topic_id": 2414,
+    "topic_slug": "mobile-app-season-3-roadmap-voting",
+    "display_username": "0xNSHuman",
+    "primary_group_name": null,
+    "flair_name": null,
+    "flair_url": null,
+    "flair_bg_color": null,
+    "flair_color": null,
+    "version": 6,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_wiki": false,
+    "user_title": "",
+    "bookmarked": false,
+    "raw": "# UPDATE\nThe polls are closed, thanks to everyone who participated! The results are going to be posted shortly.\n\n---\n\n~~What's up everybody! (Damn, this is already taken by **Icedcool**)~~\n\nAlright everybody, time to write a letter to Santa.\n\nAs promised, we are posting some feature candidates for the community to vote on. Since the list of ideas is longer than what we can possibly chew in one season, letting all of us govern the roadmap for the product we all own and are going to use every day in our lives is the right thing to do.\n\nThese polls will help us gauge the interest in particular features and overall possible directions for the app, hopefully get some fresh ideas and polish the existing ones, and ultimately prioritize our Season 3 scope items, making sure our resources are invested wisely.\n\nI would also note that we should think about this not only as a tool we use ourselves, but as a potential revenue-generating asset and a market advantage that most other decentralized organizations (if any) don't have in their arsenal.. and prioritize accordingly.\n\nUnlike the Season 2 scope features, most of these feature candidates exist as results of discussions we've been having with different guilds and project teams. This is already much better than just having me coming up with stuff, now let's make it solid by voting and offering different perspectives.\n\nPlease feel free to add more ideas in the comments if you feel inspired and/or see something obviously valuable missing. I'll add it to the post and we'll re-iterate. Now go and vote, DAOpunk, it is your app!\n\n\ud83d\udc8c\n\n# Proposed Feature Candidates\n\n### Multi-language UI + International Content\n\nOne of the best value opportunities we've identified is to make all the translated content organized in Content Gateway - each language under its own directory - and then have Mobile App switch between languages seamlessly based on the user's smartphone settings, thus giving mobile users around the planet first-class native language access to everything Bankless! International Media Nodes also fit into the picture perfectly. This is one of my personal favourites.\n\n[poll name=localization type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n\n### More Education Guild Content\n\nWe started with Bankless Academy as a big splash to make on the education side of the mobile experience. Now we're in talks with contributors interested in expanding Education Guild's outreach by utilizing Content Gateway as delivery platform, and having Mobile App as user experience platform.\n\n[poll name=eduguild type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### More HQ Content\n\nWe made Bankless Podcast videos accessible in the app, and would love to add the HQ Newsletter too. With the current platform capabilities, we're able to make it an exclusive perk for L1 members, retaining its existing business model unaffected.\n\n[poll name=hqcontent type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### iPad Application\n\nThe mobile app architecture lets us branch off most of the code we've written and create a completely different UI for all the features. For example, we can take advantage the real estate on iPad screen and create something completely different for Bankless Academy that couldn't go into the iPhone version. Same with every other feature. If you have ideas of what would absolutely look 420% better on a tablet than on a smartphone \u2014 tell us all in the comments!\n\n[poll name=ipad type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### Apple Watch Companion\n\nApple Watch apps are hard to justify, because most of them aren't really all that useful. Maybe it's just me, but Twitter and Facebook, for example, pulled their Watch apps back from the store apparently because they didn't make sense. However, we're smarter than Twitter and Facebook, aren't we \ud83e\udd14. Anyway, it is an option on the table. Thoughts are appreciated.\n\n[poll name=watch type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### ENS Support\n\nThe mobile app relies on your public ETH address in order to display on-chain information such as your BANK tokens, POAP tokens, and a lot of other things in the future. In order to do this, you obviously need to provide your address to the app, and many of us would be happy to just enter an ENS address instead of the 42-symbol raw address string.\n\nThis requires the app to know your ENS record information, and the current version doesn't have this supported. Definitely a must have! Smash the like like button if you want it ASAP.\n\n[poll name=ens type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### BANK Push Notifications\n\nWe are researching ways to create a notifications platform in Content Gateway, which would open possibilities for all sorts of events to be delivered to user devices. One obvious application of this idea is receiving push notifications for your BANK balance changes and/or new transactions.\n\n[poll name=banknotifications type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### BANK Transaction History\n\nThis is a fairly easy thing to add, we just made it a low-priority feature in Season 2 and it ended up staying in our To-Do's. Now its fighting for your love next to all the other ideas!\n\n[poll name=bankhistory type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### Tipping Other Members in BANK\n\nWe don't have a clear ETA on when this one could be added. It depends on some factors, and one of them is that there is currently a solution for tipping being developed by DEGEN team that we'd love to rely on, so we are willing to wait for that instead of duplicating the effort and creating our own API. But hey, we're gauging your interest, so let's see how much we want this one in the mobile app!\n\n[poll name=tipping type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### Announcements Feed\n\nShowing the announcements posted in our Discord.... in the app! Sounds cool to me. Doesn't sound incredibly incredibly hard to approach. And opens the door into more Discord integration opportunities. By the way, if you have more ideas on what Discord things would look great and have higher level of member engagement in the app \u2014 let us know in the comments!\n\n[poll name=announcements type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### Governance Dashboard and Notifications\n\nTo make the app a truly useful DAO member tool - in addition to its appeal to content consumer - it would be great to start introducing interface for governance. Being aware of the latest proposals and ongoing votings and governance decisions looks like a good thing to begin with.\n\nAs a bonus, if we route this data through Content Gateway and its future notification delivery service, we can also enable notifications for major governance events.\n\n[poll name=governance type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### Sponsor Portals Program\n\nAs mentioned in the [Mobile App Proposal](https://forum.bankless.community/t/proposal-bankless-mobile-app/2348), mobile platforms are great user attention grabbers. This can be one of our biggest offers for sponsors. With the software architecture flexibility and agile approach to priorities, we can create special features and content sections for our partners and sponsors, offering a much more unique and targeted user experience for each of them. This area is itself worth creating a brainstorm and workgroup around.\n\n[poll name=sponsors type=regular results=always chartType=bar]\n* We should have this ASAP\n* I'd like to see it at the end of Season 3\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n# Underdeveloped Ideas\n\n### Metaverse Portal\n\nWe are exploring the idea of using Content Gateway as a metaverse item aggregator, where the state of the world for different games would be stored, including player profiles, the items they own, any related and tokenized economy attributes, etc. Obviously, this is asking for a mobile companion app for the metaverse players. What do you think? Drop your ideas in the comments!\n\n[poll name=metaverse type=regular results=always chartType=bar]\n* This is dope, we should create something in Season 3\n* Let's research this more in Season 3, but work on it later\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### First Quest Companion\n\nThe First Quest was the very first thing that the whole mobile app design process started with back in September. Ironically, it's still one of the least developed feature concepts here \ud83e\udd37\ud83c\udffd . I'm hoping we'll find time to coordinate with The First Quest team - and their Dev Guild First Quest sister team - to finally put a solid implementation plan together. In the meantime, your votes show us all how soon this should happen.\n\n[poll name=firstquest type=regular results=always chartType=bar]\n* This is dope, we should create something in Season 3\n* Let's research this more in Season 3, but work on it later\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]\n\n### $BED + $GMI Retail Investor Interface\n\nI have a concept draft for an interactive user experience around our on-chain financial products. The proposed interactive user interface would feature something like a \"Set your level of degen-ness\" slider that user can play with and see the different suggested mixes of the two index tokens to potentially invest in. This would create a better awareness for retail investors, educate them, and help them make informed decisions. NOT A FINANCIAL ADVICE \ud83e\udda7.\n\n[poll name=bedgmi type=regular results=always chartType=bar]\n* This is dope, we should create something in Season 3\n* Let's research this more in Season 3, but work on it later\n* Maybe in 2022; Not a high priority\n* I don't see value in this\n[/poll]",
+    "actions_summary": [
+        {
+            "id": 2,
+            "count": 5
+        }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 902,
+    "hidden": false,
+    "trust_level": 2,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "polls": [
+        {
+            "name": "localization",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 28
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 6
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 12
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 2
+                }
+            ],
+            "voters": 48,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "eduguild",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 27
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 12
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 6
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 2
+                }
+            ],
+            "voters": 47,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "hqcontent",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 26
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 12
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 6
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 3
+                }
+            ],
+            "voters": 47,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "ipad",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 18
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 4
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 19
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 7
+                }
+            ],
+            "voters": 48,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "watch",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 6
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 4
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 16
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 22
+                }
+            ],
+            "voters": 48,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "ens",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 31
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 8
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 5
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 2
+                }
+            ],
+            "voters": 46,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "banknotifications",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 18
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 18
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 7
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 4
+                }
+            ],
+            "voters": 47,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "bankhistory",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 12
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 13
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 17
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 5
+                }
+            ],
+            "voters": 47,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "tipping",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 20
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 9
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 14
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 3
+                }
+            ],
+            "voters": 46,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "announcements",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 29
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 8
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 3
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 4
+                }
+            ],
+            "voters": 44,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "governance",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 27
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 10
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 5
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 1
+                }
+            ],
+            "voters": 43,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "sponsors",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b70330751355a2ff9a389af3d17c5c05",
+                    "html": "We should have this ASAP",
+                    "votes": 19
+                },
+                {
+                    "id": "4d6f66d7d96a515823b2f9142fba92f5",
+                    "html": "I\u2019d like to see it at the end of Season 3",
+                    "votes": 6
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 13
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 2
+                }
+            ],
+            "voters": 40,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "metaverse",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "918199c39a8a56202631a41b5afaf118",
+                    "html": "This is dope, we should create something in Season 3",
+                    "votes": 7
+                },
+                {
+                    "id": "0c04f5fcb5e24cd372d15903a17b200a",
+                    "html": "Let\u2019s research this more in Season 3, but work on it later",
+                    "votes": 24
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 9
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 1
+                }
+            ],
+            "voters": 41,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "firstquest",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "918199c39a8a56202631a41b5afaf118",
+                    "html": "This is dope, we should create something in Season 3",
+                    "votes": 31
+                },
+                {
+                    "id": "0c04f5fcb5e24cd372d15903a17b200a",
+                    "html": "Let\u2019s research this more in Season 3, but work on it later",
+                    "votes": 4
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 5
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 2
+                }
+            ],
+            "voters": 42,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "bedgmi",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "918199c39a8a56202631a41b5afaf118",
+                    "html": "This is dope, we should create something in Season 3",
+                    "votes": 19
+                },
+                {
+                    "id": "0c04f5fcb5e24cd372d15903a17b200a",
+                    "html": "Let\u2019s research this more in Season 3, but work on it later",
+                    "votes": 15
+                },
+                {
+                    "id": "abb0e10c133fa6c01ccd67a91ddc4615",
+                    "html": "Maybe in 2022; Not a high priority",
+                    "votes": 6
+                },
+                {
+                    "id": "04696936b1955aa6b7c37fcc0ddecb82",
+                    "html": "I don\u2019t see value in this",
+                    "votes": 1
+                }
+            ],
+            "voters": 41,
+            "chart_type": "bar",
+            "title": null
+        }
+    ]
+}

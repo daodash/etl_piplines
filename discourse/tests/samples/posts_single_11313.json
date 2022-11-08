@@ -1,0 +1,509 @@
+{
+    "id": 11313,
+    "name": "Rowan",
+    "username": "chunz",
+    "avatar_template": "/user_avatar/forum.bankless.community/chunz/{size}/1532_2.png",
+    "created_at": "2022-03-31T21:50:49.731Z",
+    "cooked": "<p>Hello Bankless DAO! Season 3 is coming to a close and I\u2019m sure we\u2019re all thinking about Season 4.</p>\n<p>Previously this post would have been called a Temp Check, but we decided to go with Community Vote to reflect the importance of some of the elements.</p>\n<p>For those who are newer to the DAO, this post serves to collect sentiments on specific DAO-wide topics and inform the Season 4 Spec.</p>\n<h3>\n<a name=\"membership-thresholds-1\" class=\"anchor\" href=\"#membership-thresholds-1\"></a>Membership Thresholds</h3>\n<p>The current membership threshold stands at 35,000 BANK to join the Discord. We have the option to increase, decrease, or keep the existing threshold in Season 4.</p>\n<ul>\n<li>Pros of increasing: Requires people sitting at the threshold to \u201copt-into\u201d the next Season</li>\n<li>Cons of increasing: Increases barriers to entry for new participants</li>\n<li>Pros of decreasing: Increases accessibility for joining the DAO (less of a need for guess passes!)</li>\n<li>Cons of decreasing: Leave contributors with less skin in the game.</li>\n</ul>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll1\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"b7f8c36c759dbc4b368879bf6013f09f\">Increase Threshold</li>\n<li data-poll-option-id=\"9f0015bad9d15ec9713cc4912744f5f8\">Decrease Threshold</li>\n<li data-poll-option-id=\"c29108c38786ab3194ec729822239ffa\">Keep Threshold Unchanged</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p>The current BANK requirement for membership is 35,000. As a follow-up for the membership threshold:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll2\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"9b258eaf09a8e3c955052f830f392da3\">Raise to 40,000 BANK</li>\n<li data-poll-option-id=\"51f07482985ea1ca1e32f2587f37373b\">Hold at 35,000 BANK</li>\n<li data-poll-option-id=\"f4023d129050260a951bee44c25d5399\">Decrease to 25,000 BANK</li>\n<li data-poll-option-id=\"8c985be4a68a0ce8c92c0066cdb940ea\">Decrease to 10,000 BANK</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Splash Zone and Level 3 (Whale) Status</strong></p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll3\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"1d140e15a808a00e6da283eba099a33b\">Increase threshold for Whale status</li>\n<li data-poll-option-id=\"40bf8493a13b89cbd903e0dd622ce785\">Decrease threshold for Whale status</li>\n<li data-poll-option-id=\"e22848afc43b8152f652134746eba229\">Keep threshold unchanged for Whale status</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Mega Whale Zone</strong></p>\n<p>There are now nearly 30+ addresses with 1M BANK or more. Season 4 could create an additional whale channel for those that have reached the seven-figure threshold.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll4\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"acc137530074bd35575cb3a883246c3a\">Create Mega Whale Zone</li>\n<li data-poll-option-id=\"2ebb4e24a95a8b1aae5e2f1436a9f7dc\">Don\u2019t create Mega Whale Zone</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Gelato G-UNI BANK/ETH LP Tokens</strong></p>\n<p>The community recently launched <a href=\"https://www.sorbet.finance/#/pools/0x472D0B0DDFE0BC02C27928b8BcbD67E65D07d48a\" rel=\"noopener nofollow ugc\">Gelato Vaults for BANK/ETH liquidity on Uniswap V3</a>. These are ERC20 tokens that we can begin supporting as membership access.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll5\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"5242efcfea74bc63ac1ea1bfd9aa9346\">Support Gelato G-UNI BANK/ETH LP Tokens</li>\n<li data-poll-option-id=\"06c2bfc7e5b3b38bca6f693abc368e39\">Don\u2019t Support</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"season-duration-2\" class=\"anchor\" href=\"#season-duration-2\"></a>Season Duration</h3>\n<p>There has been <a href=\"https://forum.bankless.community/t/4-month-season-proposal-superseason-revisions/3140\">some discussion</a> around increasing season length. Increasing Season length would provide longer timeframes to reach project and guild KPIs and goals, but could reduce flexibility of the DAO as funding access is largely tied to seasonal rotation. Should we:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll6\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"11edbf85311645867b1e25c46709ddb8\">Maintain season duration at 3 months</li>\n<li data-poll-option-id=\"1f677b28d8efe666cc076afb356c98ba\">Increase season duration to 4 months</li>\n<li data-poll-option-id=\"b2c7eb4d29db112ebcf2df086421d545\">Increase season duration to 5 months</li>\n<li data-poll-option-id=\"eecfd79866bf11a70cb57ddb26c9b920\">Increase season duration to 6 months</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<h3>\n<a name=\"budget-3\" class=\"anchor\" href=\"#budget-3\"></a>Budget</h3>\n<p>Season 1 allocated 11M BANK while Season 2 increased spending to 20.5M BANK, and in Season 3 we increased spending to 30M BANK For reference, the treasury currently holds 182M BANK with an additional 33M expected to vest during Season 4.</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll7\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"a0329e33e63c75b695de9d098c19bd15\">Increase Seasonal Spending</li>\n<li data-poll-option-id=\"2613e10a0dcf555e759b3fb1d8f39d0c\">Decrease Seasonal Spending</li>\n<li data-poll-option-id=\"4e91df251b2ac7e12fbdaa018ce84546\">Same Seasonal Spending as Season 3</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p>In the past, a capped budget constrained a lot of projects and guilds. In Season 3 we opened the option for a flexible budget following all project &amp; guild submissions. By flexible budget, we mean we will accommodate all guild and project budgets (within reason) and add a Grants Committee + DAO-wide Coordinape.</p>\n<p>There is no current framework for capping funding for flexible budgets. There has been some discussion around increasing accountability for budget allocations in Season 4, which would help ensure guilds and projects meet their KPIs before accessing additional funding.</p>\n<p>With that, here are the options:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll8\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"05fb40af6f57c5af3f374c64301a3276\">Maintain flexible budget without changing accountability constraints</li>\n<li data-poll-option-id=\"ea3cdcaacdb94f85ec516de9bcd653be\">Maintain flexible budget and increase accountability constraints</li>\n<li data-poll-option-id=\"c1d8c5857a6085b47a01ab2089f12682\">Transition back to fixed budget</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Funding Requirements</strong></p>\n<p>Currently, projects and guild budgets are evaluated largely on the proposal. There has been some discussion recently that more KPIs, milestones, value alignment mechanisms and reporting requirements should be implemented as part of funding requirements. Should we:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll9\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"cee2c5661cc730ef3602de9ec5e99e83\">Keep funding requirements the same</li>\n<li data-poll-option-id=\"fc8927cc37b8f5dab9390753be49d5fa\">Encourage use of KPIs, milestones, and reporting for all funding</li>\n<li data-poll-option-id=\"63488de1a7d10a3b22c71c6a84f4e89e\">Encourage use of KPIs, milestones, and reporting for large amounts only (&gt;100,000 BANK)</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Simplifying the Funding Process</strong></p>\n<p>There can be a lot of overhead in order to access funding, where proposal development can take weeks for larger projects and guilds. There has been some discussion around reducing proposal requirements and the overhead involved for funding requests. Should we:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll10\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"e494b2c78f7fe9a9013ba12632e81fff\">Maintain current funding requirements</li>\n<li data-poll-option-id=\"98f09f78a290fce45fea513ab2e24139\">Reduce proposal requirements and increase accountability (e.g. KPIs, milestones, reporting)</li>\n<li data-poll-option-id=\"d1eeaad5590bb195211fec14e5141c86\">Reduce proposal requirements without increasing accountability</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Grants Committee</strong></p>\n<p>The Grants Committee has distributed over 45% of its budget for S3. It\u2019s worth noting that most projects have been funded and will qualify for S4 direct funding. In S4, we should:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll11\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"f1a2fe9c90b65c65689a9170e1f2f624\">Increase Grants Committee Funding (&gt;7M BANK)</li>\n<li data-poll-option-id=\"3eca199e5050cf5a6d3d69170b531cd4\">Decrease Grants Committee Funding (&lt;7M BANK)</li>\n<li data-poll-option-id=\"ca2dccb92421986121afa8d79759b63f\">Keep Grants Committee Funding Unchanged (7M BANK)</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p>It has been proposed that the Grants Committee impose greater accountability requirements for the projects it funds. This may increase the overhead of projects that receive funding through the Grants Committee, but it should help ensure projects achieve their goals and DAO funding is well spent. With that in mind:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll12\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"eab232e1322c8de6929de36356359ae9\">Increase accountability requirements for projects funded through the Grants Committee</li>\n<li data-poll-option-id=\"ccc6a71d8997205b6c24574042751019\">Maintain current accountability requirements for projects funded through the Grants Committee</li>\n<li data-poll-option-id=\"92bcb5b6c354286e472efcbac9fb7316\">Decrease accountability requirements for projects funded through the Grants Committee</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Guild Funding</strong></p>\n<p>Season 3 distributed 8M BANK to the 12 guilds in Bankless DAO. You can get a <a href=\"https://snapshot.org/#/banklessvault.eth/proposal/0xe3f54fb37453af90984c4c41256afde75b92b8383acdcb9a7f467574e0cccb8a\" rel=\"noopener nofollow ugc\">full breakdown</a> of the funding distribution here. In Season 4, we should:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll13\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"ac417d6885849ccb1a2f64f93df417ed\">Increase Guild Funding</li>\n<li data-poll-option-id=\"91847afe520f1a973cab076e33a2e011\">Keep Guild Funding Unchanged</li>\n<li data-poll-option-id=\"4c0514674a74bef56ed3c2e16d265cce\">Decrease Guild Funding</li>\n<li data-poll-option-id=\"76c3bb0bc36f6fef28d748810e6ea45e\">Transition to Flexible Funding</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Project Funding</strong></p>\n<p>Season 3 distributed 11M BANK to the 17 projects in Bankless DAO. You can get a <a href=\"https://snapshot.org/#/banklessvault.eth/proposal/0xe3f54fb37453af90984c4c41256afde75b92b8383acdcb9a7f467574e0cccb8a\" rel=\"noopener nofollow ugc\">full breakdown</a> of the funding distribution here. In Season 4, we should:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll14\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"2ce5e8903d103d99327241a37cef7db4\">Increase Project Funding</li>\n<li data-poll-option-id=\"1edd618068ebc580d02b41c9d7f342ed\">Keep Project Funding Unchanged</li>\n<li data-poll-option-id=\"58b2af45faf48f24df8de1ea8365c451\">Decrease Project Funding</li>\n<li data-poll-option-id=\"703ac8f871affa19c27b93ab50ef84ea\">Transition to Flexible Project Funding</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Contributor Rewards</strong></p>\n<p>Season 2 expanded the Contributor Rewards to multiple rounds, including monthly rounds for Contributors, Level 1s, and recent Guest Passes. In total, 3.5M BANK was distributed via this method. Season 3 increased contributor rewards further, with 4M BANK distributed via the same methods.</p>\n<p>In Season 4, we should:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll15\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"5ee616ffe731fe1698a2283763d1af8c\">Increase Contributor Rewards</li>\n<li data-poll-option-id=\"5bc9a15927b269965efb7a9961c026ce\">Decrease Contributor Rewards</li>\n<li data-poll-option-id=\"e472d8ba8e669254eaa98e7b8c6a7c12\">Keep Contributor Rewards Unchanged</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Coordinape Rounds</strong></p>\n<p>Follow-up on the frequency of the Coordinape rounds: In Season 3 we voted to maintain monthly Coordinape rounds. In Season 4, we should:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll16\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"688d861fb3723681add4992562aa9192\">Continue Monthly Rounds</li>\n<li data-poll-option-id=\"2db12b491e59680cfa18385dd81a6169\">Discontinue Monthly Rounds and Revert to Seasonal Rounds</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p><strong>Hourly Compensation Guideline</strong></p>\n<p>Seasons 1 through 3 featured the hourly rate guideline at 1,000 BANK per hour. There have been ongoing discussions around changing this figure. These are important considerations for contribution to the DAO when BANK has a lower fiat value in a bear market, as compared to when BANK has high value in a bull market. Keeping in mind that this is a guideline and can be adjusted throughout the season, the rate guideline for contributors should fall at:</p>\n<div class=\"poll\" data-poll-status=\"open\" data-poll-name=\"poll17\" data-poll-results=\"always\" data-poll-charttype=\"bar\" data-poll-type=\"regular\">\n<div>\n<div class=\"poll-container\">\n<ul>\n<li data-poll-option-id=\"bdc9d7ca2371af188706026fd580c9ad\">1250 BANK/hour</li>\n<li data-poll-option-id=\"9882174445b167da4e6a23d0a1c29b30\">1000 BANK/hour</li>\n<li data-poll-option-id=\"adb3c04cf06453a58fa6224a21047031\">750 BANK/hour</li>\n<li data-poll-option-id=\"a2665aa7984c9573340010661cdfe0e3\">500 BANK/hour</li>\n</ul>\n</div>\n<div class=\"poll-info\">\n<p>\n<span class=\"info-number\">0</span>\n<span class=\"info-label\">voters</span>\n</p>\n</div>\n</div>\n</div>\n<p>For more context, see the<a href=\"https://forum.bankless.community/t/compensation-at-banklessdao/2272\"> compensation working group post</a>.</p>\n<p>Please keep in mind that none of these poll results are final, they simply represent the DAO\u2019s sentiment as we build out the Season 4 spec, which will go through its own independent governance process.</p>",
+    "post_number": 1,
+    "post_type": 1,
+    "updated_at": "2022-03-31T21:50:49.731Z",
+    "reply_count": 2,
+    "reply_to_post_number": null,
+    "quote_count": 0,
+    "incoming_link_count": 49,
+    "reads": 104,
+    "readers_count": 103,
+    "score": 345.8,
+    "yours": false,
+    "topic_id": 3200,
+    "topic_slug": "community-vote-season-4",
+    "display_username": "Rowan",
+    "primary_group_name": null,
+    "flair_name": null,
+    "flair_url": null,
+    "flair_bg_color": null,
+    "flair_color": null,
+    "version": 1,
+    "can_edit": false,
+    "can_delete": false,
+    "can_recover": false,
+    "can_wiki": false,
+    "user_title": "",
+    "bookmarked": false,
+    "raw": "Hello Bankless DAO! Season 3 is coming to a close and I'm sure we're all thinking about Season 4. \n \nPreviously this post would have been called a Temp Check, but we decided to go with Community Vote to reflect the importance of some of the elements. \n\nFor those who are newer to the DAO, this post serves to collect sentiments on specific DAO-wide topics and inform the Season 4 Spec.\n\n### Membership Thresholds\n\nThe current membership threshold stands at 35,000 BANK to join the Discord. We have the option to increase, decrease, or keep the existing threshold in Season 4.\n\n* Pros of increasing: Requires people sitting at the threshold to \u201copt-into\u201d the next Season\n* Cons of increasing: Increases barriers to entry for new participants\n* Pros of decreasing: Increases accessibility for joining the DAO (less of a need for guess passes!)\n* Cons of decreasing: Leave contributors with less skin in the game.\n\n[poll name=poll1 type=regular results=always chartType=bar]\n* Increase Threshold\n* Decrease Threshold\n* Keep Threshold Unchanged\n[/poll]\n\nThe current BANK requirement for membership is 35,000. As a follow-up for the membership threshold:\n\n[poll name=poll2 type=regular results=always chartType=bar]\n* Raise to 40,000 BANK\n* Hold at 35,000 BANK\n* Decrease to 25,000 BANK\n* Decrease to 10,000 BANK\n[/poll]\n\n**Splash Zone and Level 3 (Whale) Status**\n\n[poll name=poll3 type=regular results=always chartType=bar]\n* Increase threshold for Whale status\n* Decrease threshold for Whale status\n* Keep threshold unchanged for Whale status\n[/poll]\n\n**Mega Whale Zone**\n\nThere are now nearly 30+ addresses with 1M BANK or more. Season 4 could create an additional whale channel for those that have reached the seven-figure threshold.\n\n[poll name=poll4 type=regular results=always chartType=bar]\n* Create Mega Whale Zone\n* Don't create Mega Whale Zone\n[/poll]\n\n\n**Gelato G-UNI BANK/ETH LP Tokens**\n\nThe community recently launched [Gelato Vaults for BANK/ETH liquidity on Uniswap V3](https://www.sorbet.finance/#/pools/0x472D0B0DDFE0BC02C27928b8BcbD67E65D07d48a). These are ERC20 tokens that we can begin supporting as membership access.\n\n[poll name=poll5 type=regular results=always chartType=bar]\n* Support Gelato G-UNI BANK/ETH LP Tokens\n* Don\u2019t Support\n[/poll]\n\n\n### Season Duration\n\nThere has been [some discussion](https://forum.bankless.community/t/4-month-season-proposal-superseason-revisions/3140) around increasing season length. Increasing Season length would provide longer timeframes to reach project and guild KPIs and goals, but could reduce flexibility of the DAO as funding access is largely tied to seasonal rotation. Should we:\n\n[poll name=poll6 type=regular results=always chartType=bar]\n* Maintain season duration at 3 months\n* Increase season duration to 4 months\n* Increase season duration to 5 months\n* Increase season duration to 6 months\n[/poll]\n\n### Budget\nSeason 1 allocated 11M BANK while Season 2 increased spending to 20.5M BANK, and in Season 3 we increased spending to 30M BANK For reference, the treasury currently holds 182M BANK with an additional 33M expected to vest during Season 4.\n\n[poll name=poll7 type=regular results=always chartType=bar]\n* Increase Seasonal Spending\n* Decrease Seasonal Spending\n* Same Seasonal Spending as Season 3\n[/poll]\n\nIn the past, a capped budget constrained a lot of projects and guilds. In Season 3 we opened the option for a flexible budget following all project & guild submissions. By flexible budget, we mean we will accommodate all guild and project budgets (within reason) and add a Grants Committee + DAO-wide Coordinape.\n\nThere is no current framework for capping funding for flexible budgets. There has been some discussion around increasing accountability for budget allocations in Season 4, which would help ensure guilds and projects meet their KPIs before accessing additional funding.\n\nWith that, here are the options:\n[poll name=poll8 type=regular results=always chartType=bar]\n* Maintain flexible budget without changing accountability constraints\n* Maintain flexible budget and increase accountability constraints\n* Transition back to fixed budget\n[/poll]\n\n**Funding Requirements**\n\nCurrently, projects and guild budgets are evaluated largely on the proposal. There has been some discussion recently that more KPIs, milestones, value alignment mechanisms and reporting requirements should be implemented as part of funding requirements. Should we:\n\n[poll name=poll9 type=regular results=always chartType=bar]\n* Keep funding requirements the same\n* Encourage use of KPIs, milestones, and reporting for all funding\n* Encourage use of KPIs, milestones, and reporting for large amounts only (>100,000 BANK)\n[/poll]\n\n**Simplifying the Funding Process**\n\nThere can be a lot of overhead in order to access funding, where proposal development can take weeks for larger projects and guilds. There has been some discussion around reducing proposal requirements and the overhead involved for funding requests. Should we:\n\n[poll name=poll10 type=regular results=always chartType=bar]\n* Maintain current funding requirements\n* Reduce proposal requirements and increase accountability (e.g. KPIs, milestones, reporting)\n* Reduce proposal requirements without increasing accountability\n[/poll]\n\n**Grants Committee**\n\nThe Grants Committee has distributed over 45% of its budget for S3. It's worth noting that most projects have been funded and will qualify for S4 direct funding. In S4, we should:\n\n[poll name=poll11 type=regular results=always chartType=bar]\n* Increase Grants Committee Funding (>7M BANK)\n* Decrease Grants Committee Funding (<7M BANK)\n* Keep Grants Committee Funding Unchanged (7M BANK)\n[/poll]\n\nIt has been proposed that the Grants Committee impose greater accountability requirements for the projects it funds. This may increase the overhead of projects that receive funding through the Grants Committee, but it should help ensure projects achieve their goals and DAO funding is well spent. With that in mind:\n\n[poll name=poll12 type=regular results=always chartType=bar]\n* Increase accountability requirements for projects funded through the Grants Committee\n* Maintain current accountability requirements for projects funded through the Grants Committee\n* Decrease accountability requirements for projects funded through the Grants Committee\n[/poll]\n\n**Guild Funding**\n\nSeason 3 distributed 8M BANK to the 12 guilds in Bankless DAO. You can get a [full breakdown](https://snapshot.org/#/banklessvault.eth/proposal/0xe3f54fb37453af90984c4c41256afde75b92b8383acdcb9a7f467574e0cccb8a) of the funding distribution here. In Season 4, we should:\n\n[poll name=poll13 type=regular results=always chartType=bar]\n* Increase Guild Funding\n* Keep Guild Funding Unchanged\n* Decrease Guild Funding\n* Transition to Flexible Funding\n[/poll]\n\n**Project Funding**\n\nSeason 3 distributed 11M BANK to the 17 projects in Bankless DAO. You can get a [full breakdown](https://snapshot.org/#/banklessvault.eth/proposal/0xe3f54fb37453af90984c4c41256afde75b92b8383acdcb9a7f467574e0cccb8a) of the funding distribution here. In Season 4, we should:\n\n[poll name=poll14 type=regular results=always chartType=bar]\n* Increase Project Funding\n* Keep Project Funding Unchanged\n* Decrease Project Funding\n* Transition to Flexible Project Funding\n[/poll]\n\n**Contributor Rewards**\n\nSeason 2 expanded the Contributor Rewards to multiple rounds, including monthly rounds for Contributors, Level 1s, and recent Guest Passes. In total, 3.5M BANK was distributed via this method. Season 3 increased contributor rewards further, with 4M BANK distributed via the same methods.\n\nIn Season 4, we should:\n\n[poll name=poll15 type=regular results=always chartType=bar]\n* Increase Contributor Rewards\n* Decrease Contributor Rewards\n* Keep Contributor Rewards Unchanged\n[/poll]\n\n**Coordinape Rounds**\n\nFollow-up on the frequency of the Coordinape rounds: In Season 3 we voted to maintain monthly Coordinape rounds. In Season 4, we should:\n\n[poll name=poll16 type=regular results=always chartType=bar]\n* Continue Monthly Rounds\n* Discontinue Monthly Rounds and Revert to Seasonal Rounds\n[/poll]\n\n**Hourly Compensation Guideline**\n\nSeasons 1 through 3 featured the hourly rate guideline at 1,000 BANK per hour. There have been ongoing discussions around changing this figure. These are important considerations for contribution to the DAO when BANK has a lower fiat value in a bear market, as compared to when BANK has high value in a bull market. Keeping in mind that this is a guideline and can be adjusted throughout the season, the rate guideline for contributors should fall at:\n\n[poll name=poll17 type=regular results=always chartType=bar]\n* 1250 BANK/hour\n* 1000 BANK/hour\n* 750 BANK/hour\n* 500 BANK/hour\n[/poll]\n\nFor more context, see the[ compensation working group post](https://forum.bankless.community/t/compensation-at-banklessdao/2272).\n\nPlease keep in mind that none of these poll results are final, they simply represent the DAO's sentiment as we build out the Season 4 spec, which will go through its own independent governance process.",
+    "actions_summary": [
+        {
+            "id": 2,
+            "count": 5
+        }
+    ],
+    "moderator": false,
+    "admin": false,
+    "staff": false,
+    "user_id": 392,
+    "hidden": false,
+    "trust_level": 2,
+    "deleted_at": null,
+    "user_deleted": false,
+    "edit_reason": null,
+    "can_view_edit_history": true,
+    "wiki": false,
+    "can_accept_answer": false,
+    "can_unaccept_answer": false,
+    "accepted_answer": false,
+    "polls": [
+        {
+            "name": "poll1",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "b7f8c36c759dbc4b368879bf6013f09f",
+                    "html": "Increase Threshold",
+                    "votes": 7
+                },
+                {
+                    "id": "9f0015bad9d15ec9713cc4912744f5f8",
+                    "html": "Decrease Threshold",
+                    "votes": 28
+                },
+                {
+                    "id": "c29108c38786ab3194ec729822239ffa",
+                    "html": "Keep Threshold Unchanged",
+                    "votes": 37
+                }
+            ],
+            "voters": 72,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll2",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "9b258eaf09a8e3c955052f830f392da3",
+                    "html": "Raise to 40,000 BANK",
+                    "votes": 4
+                },
+                {
+                    "id": "51f07482985ea1ca1e32f2587f37373b",
+                    "html": "Hold at 35,000 BANK",
+                    "votes": 36
+                },
+                {
+                    "id": "f4023d129050260a951bee44c25d5399",
+                    "html": "Decrease to 25,000 BANK",
+                    "votes": 23
+                },
+                {
+                    "id": "8c985be4a68a0ce8c92c0066cdb940ea",
+                    "html": "Decrease to 10,000 BANK",
+                    "votes": 8
+                }
+            ],
+            "voters": 71,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll3",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "1d140e15a808a00e6da283eba099a33b",
+                    "html": "Increase threshold for Whale status",
+                    "votes": 12
+                },
+                {
+                    "id": "40bf8493a13b89cbd903e0dd622ce785",
+                    "html": "Decrease threshold for Whale status",
+                    "votes": 5
+                },
+                {
+                    "id": "e22848afc43b8152f652134746eba229",
+                    "html": "Keep threshold unchanged for Whale status",
+                    "votes": 49
+                }
+            ],
+            "voters": 66,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll4",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "acc137530074bd35575cb3a883246c3a",
+                    "html": "Create Mega Whale Zone",
+                    "votes": 25
+                },
+                {
+                    "id": "2ebb4e24a95a8b1aae5e2f1436a9f7dc",
+                    "html": "Don\u2019t create Mega Whale Zone",
+                    "votes": 43
+                }
+            ],
+            "voters": 68,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll5",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "5242efcfea74bc63ac1ea1bfd9aa9346",
+                    "html": "Support Gelato G-UNI BANK/ETH LP Tokens",
+                    "votes": 52
+                },
+                {
+                    "id": "06c2bfc7e5b3b38bca6f693abc368e39",
+                    "html": "Don\u2019t Support",
+                    "votes": 7
+                }
+            ],
+            "voters": 59,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll6",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "11edbf85311645867b1e25c46709ddb8",
+                    "html": "Maintain season duration at 3 months",
+                    "votes": 36
+                },
+                {
+                    "id": "1f677b28d8efe666cc076afb356c98ba",
+                    "html": "Increase season duration to 4 months",
+                    "votes": 27
+                },
+                {
+                    "id": "b2c7eb4d29db112ebcf2df086421d545",
+                    "html": "Increase season duration to 5 months",
+                    "votes": 0
+                },
+                {
+                    "id": "eecfd79866bf11a70cb57ddb26c9b920",
+                    "html": "Increase season duration to 6 months",
+                    "votes": 7
+                }
+            ],
+            "voters": 70,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll7",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "a0329e33e63c75b695de9d098c19bd15",
+                    "html": "Increase Seasonal Spending",
+                    "votes": 14
+                },
+                {
+                    "id": "2613e10a0dcf555e759b3fb1d8f39d0c",
+                    "html": "Decrease Seasonal Spending",
+                    "votes": 11
+                },
+                {
+                    "id": "4e91df251b2ac7e12fbdaa018ce84546",
+                    "html": "Same Seasonal Spending as Season 3",
+                    "votes": 39
+                }
+            ],
+            "voters": 64,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll8",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "05fb40af6f57c5af3f374c64301a3276",
+                    "html": "Maintain flexible budget without changing accountability constraints",
+                    "votes": 17
+                },
+                {
+                    "id": "ea3cdcaacdb94f85ec516de9bcd653be",
+                    "html": "Maintain flexible budget and increase accountability constraints",
+                    "votes": 45
+                },
+                {
+                    "id": "c1d8c5857a6085b47a01ab2089f12682",
+                    "html": "Transition back to fixed budget",
+                    "votes": 4
+                }
+            ],
+            "voters": 66,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll9",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "cee2c5661cc730ef3602de9ec5e99e83",
+                    "html": "Keep funding requirements the same",
+                    "votes": 9
+                },
+                {
+                    "id": "fc8927cc37b8f5dab9390753be49d5fa",
+                    "html": "Encourage use of KPIs, milestones, and reporting for all funding",
+                    "votes": 21
+                },
+                {
+                    "id": "63488de1a7d10a3b22c71c6a84f4e89e",
+                    "html": "Encourage use of KPIs, milestones, and reporting for large amounts only (&gt;100,000 BANK)",
+                    "votes": 36
+                }
+            ],
+            "voters": 66,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll10",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "e494b2c78f7fe9a9013ba12632e81fff",
+                    "html": "Maintain current funding requirements",
+                    "votes": 31
+                },
+                {
+                    "id": "98f09f78a290fce45fea513ab2e24139",
+                    "html": "Reduce proposal requirements and increase accountability (e.g. KPIs, milestones, reporting)",
+                    "votes": 26
+                },
+                {
+                    "id": "d1eeaad5590bb195211fec14e5141c86",
+                    "html": "Reduce proposal requirements without increasing accountability",
+                    "votes": 2
+                }
+            ],
+            "voters": 59,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll11",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "f1a2fe9c90b65c65689a9170e1f2f624",
+                    "html": "Increase Grants Committee Funding (&gt;7M BANK)",
+                    "votes": 10
+                },
+                {
+                    "id": "3eca199e5050cf5a6d3d69170b531cd4",
+                    "html": "Decrease Grants Committee Funding (&lt;7M BANK)",
+                    "votes": 11
+                },
+                {
+                    "id": "ca2dccb92421986121afa8d79759b63f",
+                    "html": "Keep Grants Committee Funding Unchanged (7M BANK)",
+                    "votes": 42
+                }
+            ],
+            "voters": 63,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll12",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "eab232e1322c8de6929de36356359ae9",
+                    "html": "Increase accountability requirements for projects funded through the Grants Committee",
+                    "votes": 41
+                },
+                {
+                    "id": "ccc6a71d8997205b6c24574042751019",
+                    "html": "Maintain current accountability requirements for projects funded through the Grants Committee",
+                    "votes": 18
+                },
+                {
+                    "id": "92bcb5b6c354286e472efcbac9fb7316",
+                    "html": "Decrease accountability requirements for projects funded through the Grants Committee",
+                    "votes": 1
+                }
+            ],
+            "voters": 60,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll13",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "ac417d6885849ccb1a2f64f93df417ed",
+                    "html": "Increase Guild Funding",
+                    "votes": 6
+                },
+                {
+                    "id": "91847afe520f1a973cab076e33a2e011",
+                    "html": "Keep Guild Funding Unchanged",
+                    "votes": 24
+                },
+                {
+                    "id": "4c0514674a74bef56ed3c2e16d265cce",
+                    "html": "Decrease Guild Funding",
+                    "votes": 11
+                },
+                {
+                    "id": "76c3bb0bc36f6fef28d748810e6ea45e",
+                    "html": "Transition to Flexible Funding",
+                    "votes": 19
+                }
+            ],
+            "voters": 60,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll14",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "2ce5e8903d103d99327241a37cef7db4",
+                    "html": "Increase Project Funding",
+                    "votes": 9
+                },
+                {
+                    "id": "1edd618068ebc580d02b41c9d7f342ed",
+                    "html": "Keep Project Funding Unchanged",
+                    "votes": 17
+                },
+                {
+                    "id": "58b2af45faf48f24df8de1ea8365c451",
+                    "html": "Decrease Project Funding",
+                    "votes": 4
+                },
+                {
+                    "id": "703ac8f871affa19c27b93ab50ef84ea",
+                    "html": "Transition to Flexible Project Funding",
+                    "votes": 30
+                }
+            ],
+            "voters": 60,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll15",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "5ee616ffe731fe1698a2283763d1af8c",
+                    "html": "Increase Contributor Rewards",
+                    "votes": 25
+                },
+                {
+                    "id": "5bc9a15927b269965efb7a9961c026ce",
+                    "html": "Decrease Contributor Rewards",
+                    "votes": 4
+                },
+                {
+                    "id": "e472d8ba8e669254eaa98e7b8c6a7c12",
+                    "html": "Keep Contributor Rewards Unchanged",
+                    "votes": 32
+                }
+            ],
+            "voters": 61,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll16",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "688d861fb3723681add4992562aa9192",
+                    "html": "Continue Monthly Rounds",
+                    "votes": 45
+                },
+                {
+                    "id": "2db12b491e59680cfa18385dd81a6169",
+                    "html": "Discontinue Monthly Rounds and Revert to Seasonal Rounds",
+                    "votes": 19
+                }
+            ],
+            "voters": 64,
+            "chart_type": "bar",
+            "title": null
+        },
+        {
+            "name": "poll17",
+            "type": "regular",
+            "status": "closed",
+            "results": "always",
+            "options": [
+                {
+                    "id": "bdc9d7ca2371af188706026fd580c9ad",
+                    "html": "1250 BANK/hour",
+                    "votes": 21
+                },
+                {
+                    "id": "9882174445b167da4e6a23d0a1c29b30",
+                    "html": "1000 BANK/hour",
+                    "votes": 31
+                },
+                {
+                    "id": "adb3c04cf06453a58fa6224a21047031",
+                    "html": "750 BANK/hour",
+                    "votes": 8
+                },
+                {
+                    "id": "a2665aa7984c9573340010661cdfe0e3",
+                    "html": "500 BANK/hour",
+                    "votes": 2
+                }
+            ],
+            "voters": 62,
+            "chart_type": "bar",
+            "title": null
+        }
+    ]
+}

@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS daodash_ny.discourse_posts (
 CREATE TABLE IF NOT EXISTS daodash_ny.discourse_polls (
     id bigint NOT NULL CONSTRAINT pk_discourse_polls PRIMARY KEY,
     post_id integer NOT NULL,
-    title varchar(200) NULL,
+    title varchar(250) NULL,
     status varchar(30) NOT NULL,
     voters_count integer DEFAULT 0 NOT NULL,
     created_at timestamp NOT NULL DEFAULT current_timestamp,
@@ -80,7 +80,7 @@ CREATE TABLE IF NOT EXISTS daodash_ny.discourse_polls (
 
 CREATE TABLE IF NOT EXISTS daodash_ny.discourse_poll_votes (
     id bigint NOT NULL CONSTRAINT pk_discourse_poll_votes PRIMARY KEY,
-    poll_id integer NOT NULL,
+    poll_id bigint NOT NULL,
     vote_option varchar(500) NULL,
     votes_count integer DEFAULT 0 NULL,
     created_at timestamp NOT NULL DEFAULT current_timestamp,

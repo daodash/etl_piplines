@@ -39,7 +39,7 @@ discourse_api_username = os.getenv("DISCOURSE_API_USERNAME") #'All Users'
 
 # posts
 #api_query = '{}/posts.json?api_key={}&api_username={}'.format(discourse_url, discourse_api_key, discourse_api_username)
-api_query = '{}/posts/{}.json?api_key={}&api_username={}'.format(discourse_url, 14065, discourse_api_key, discourse_api_username)
+api_query = '{}/posts/{}.json?api_key={}&api_username={}'.format(discourse_url, 8672, discourse_api_key, discourse_api_username)
 #api_query = '{}/posts/{}/replies.json?api_key={}&api_username={}'.format(discourse_url, 4171, discourse_api_key, discourse_api_username)
 
 # search
@@ -50,6 +50,6 @@ api_query = '{}/posts/{}.json?api_key={}&api_username={}'.format(discourse_url, 
 #api_query = '{}/search/query.json?{}&page=2'.format(discourse_url, search) #doesn't require api key
 
 result = requests.get(api_query).json()
-with open('./tests/samples/posts_single.json', 'w') as f:
+with open('./tests/samples/posts_single_8672.json', 'w') as f:
     json.dump(result, f, indent=4)
 #print(json.dumps(result, indent=4))
